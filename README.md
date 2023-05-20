@@ -15,13 +15,13 @@ He desarrollado la práctica en un entorno docker.
      En caso de generar conflicto con algún servicio; utilizad otro gracias.
 3)  Para visualizar el proyecto:  http://localhost:8085/
 4)  Para acceder al contenedor mysql:
-    docker exec -it mysql8-container bash
-    mysql -p (password: secret)
-    show databases;
-    use Test_Audax;
-    show tables;
-    select * from historial_busquedas;
-    # Y se podrán ver todos los términos buscados.
+   - docker exec -it mysql8-container bash
+   - mysql -p (password: secret)
+   - show databases;
+   - use Test_Audax;
+   - show tables;
+   - select * from historial_busquedas;
+   - # Y se podrán visualizar todos los términos buscados.
 
 
 ![index Audax](/images/audax.png)
