@@ -2,7 +2,7 @@
 ---------------
 He desarrollado la práctica en un entorno docker.
 1)  Clonar el repositorio en local  
-   - Ejecutar: git clone https://github.com/DaniHerrera/audax-docker-environment.git
+   - Ejecutar: git clone git@github.com:DaniHerrera/audax-docker-environment.git    # o bien por https
 2) Entrar dentro del directorio audax-docker-environment/nginx-php8.1-mysql8-docker-network
    - Ejecutar: docker-compose up -d 
    - Se levantaran los contenedores de nginx, php y mysql
