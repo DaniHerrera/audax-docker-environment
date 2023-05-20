@@ -5,7 +5,7 @@ He desarrollado la práctica en un entorno docker.
    - Ejecutar: (sudo) git clone https://github.com/DaniHerrera/audax-docker-environment.git
   
 2) Entrar dentro del directorio audax-docker-environment
-   - git config --global --add safe.directory {{ path_correspondiente }}  ## no se si ser
+   - git config --global --add safe.directory {{ path_correspondiente }}  ## no se si será obligatorio este paso
    - (sudo) git checkout master
    - Ejecutar: docker-compose up -d 
    - Se levantaran los contenedores de nginx, php y mysql
