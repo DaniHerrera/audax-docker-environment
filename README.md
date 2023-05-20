@@ -2,7 +2,7 @@
 ---------------
 He desarrollado la práctica en un entorno docker.
 1)  Clonar el repositorio en local  
-   - Ejecutar: (sudo) git clone git@github.com:DaniHerrera/audax-docker-environment.git    # o bien por https
+   - Ejecutar: (sudo) git clone https://github.com/DaniHerrera/audax-docker-environment.git
    - (sudo) git checkout master
 2) Entrar dentro del directorio audax-docker-environment
    - Ejecutar: docker-compose up -d 
