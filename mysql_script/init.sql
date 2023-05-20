@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS Test_Audax;
+USE Test_Audax;
+CREATE TABLE IF NOT EXISTS historial_busquedas (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       termino_busqueda VARCHAR(255) NOT NULL,
+        fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
