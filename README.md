@@ -38,3 +38,21 @@ He desarrollado la práctica en un entorno docker.
 ## Instalación docker y docker-compose  ( de DigitalOcean )
 ## https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 ## https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-es
+
+Requerimientos técnicos:
+·       La aplicación debe ser desarrollada en HTML5, CSS3, JavaScript y PHP.
+·       Se debe utilizar la API pública de Wikipedia (https://www.mediawiki.org/wiki/API:Main_page) para realizar la búsqueda de términos y obtener los resultados.
+·       Se deben utilizar eventos de JavaScript para capturar el término de búsqueda ingresado por el usuario y realizar la llamada a la API de Wikipedia.
+·       Los resultados obtenidos deben mostrarse en la misma página de manera clara y legible.
+·       Se debe crear una base de datos SQL para guardar el historial de búsquedas realizadas por el usuario.
+·       Se deben utilizar consultas preparadas de SQL para evitar inyecciones SQL.
+·       Se debe utilizar PHP para conectarse a la base de datos y guardar el historial de búsquedas.
+
+Especificaciones técnicas:
+·        Se debe utilizar HTML5 para la estructura de la página.
+·        Se debe utilizar CSS3 para dar estilo a la página.
+·        Se debe utilizar JavaScript para capturar el término de búsqueda ingresado por el usuario y realizar la llamada a la API de Wikipedia.
+·        Se debe utilizar PHP para conectarse a la base de datos SQL y guardar el historial de búsquedas.
+·        Se debe entregar el código fuente completo de la aplicación.
+
+
