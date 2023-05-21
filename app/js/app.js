@@ -53,7 +53,7 @@ searchForm.addEventListener('submit', (e) => {
         console.log('parameters');
         console.log(parameters);
         */
-        fetch('/php/connexion.php', {
+        fetch('/php/insertarBusqueda.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'

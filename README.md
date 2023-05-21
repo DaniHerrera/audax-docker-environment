@@ -13,8 +13,14 @@ He desarrollado la práctica en un entorno docker.
      te crea la base de datos { Test_Audax } y la tabla { historial_busquedas }
    - Los puertos utilizados por defecto para que se vean los contenedores en vuestro host son:  4306 MySql y 8085 nginx.
      En caso de generar conflicto con algún servicio; utilizad otro gracias.
-3)  Para visualizar el proyecto:  http://localhost:8085/
-4)  Para acceder al contenedor mysql:
+   
+3) Acceder al contenedor de php y ejecutar: 
+   - docker exec -it php81-container bash
+   - composer up  #( instalaremos el autoload PSR-4 Para la conexión Singleton PDO)
+
+4)  Para visualizar el proyecto:  http://localhost:8085/
+
+5)  Para acceder al contenedor mysql:
    - docker exec -it mysql8-container bash
    - mysql -p (password: secret)
    - show databases;
