@@ -20,7 +20,7 @@ He desarrollado la práctica en un entorno docker.
 
 4)  Para visualizar el proyecto:  http://localhost:8085/
 
-5)  Para acceder al contenedor mysql:
+5)  Para acceder al contenedor mysql y visualizar que las peticiones quedan registradas:
    - docker exec -it mysql8-container bash
    - mysql -p (password: secret)
    - show databases;
